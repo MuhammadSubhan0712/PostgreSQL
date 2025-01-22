@@ -1,5 +1,4 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from ".";
 
 const createUserModel = (sequelize) => {
   const User = sequelize.define(
